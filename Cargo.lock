@@ -470,9 +470,9 @@ dependencies = [
 
 [[package]]
 name = "ring-compat"
-version = "0.4.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "80f9cf4a178de62d388e6502dae2101b37c1becf65227bf1210e6cf12dc633a3"
+checksum = "6242f589b69a0555addb0bb759f81e5cba40485d38b36f780ab3a588b2bdf064"
 dependencies = [
  "aead",
  "digest",
@@ -483,7 +483,6 @@ dependencies = [
  "p256",
  "p384",
  "ring",
- "zeroize",
 ]
 
 [[package]]
