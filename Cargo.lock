@@ -93,6 +93,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "crypto-bigint"
+version = "0.4.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "40997c4145fd5570180f579db9fcea452c91a2b72411da899efb1fb041136eae"
+dependencies = [
+ "generic-array",
+ "subtle",
+ "zeroize",
+]
+
+[[package]]
 name = "crypto-mac"
 version = "0.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -203,7 +214,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "79a4c0d14ef894e75cec382d55c2cad1d29974c4a89bf72184ab3646b76ae13a"
 dependencies = [
  "base16ct",
- "crypto-bigint",
+ "crypto-bigint 0.3.2",
  "der",
  "ff",
  "generic-array",
@@ -448,7 +459,7 @@ dependencies = [
 name = "rfc6979"
 version = "0.1.0"
 dependencies = [
- "crypto-bigint",
+ "crypto-bigint 0.4.4",
  "hmac",
  "zeroize",
 ]
